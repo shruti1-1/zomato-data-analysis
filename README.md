@@ -20,10 +20,15 @@ This project is created for academic learning and portfolio demonstration purpos
 ## Project Structure
 zomato-data-analysis/
 │
-├── zomato.py # Main Python script for analysis
+
+├──zomato.py # Main Python script for analysis
+
 ├── zomato_dataset.csv # Dataset used for analysis
+
 ├── README.md # Project documentation
+
 ├── .gitignore # Ignored system/cache files
+
 └── LICENSE # MIT License
 
 ---
