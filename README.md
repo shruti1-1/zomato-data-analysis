@@ -1,27 +1,37 @@
-# zomato-data-analysis
-Exploratory data analysis of Zomato restaurant data using Python, Pandas, and data visualization libraries.
-
 # Zomato Data Analysis Project
 
 ## Project Overview
-This project focuses on **Exploratory Data Analysis (EDA)** of the Zomato restaurant dataset using Python.  
-The objective is to analyze restaurant trends, customer preferences, pricing, and ratings to derive meaningful business insights.
+This project performs **Exploratory Data Analysis (EDA)** on the Zomato restaurant dataset using Python.  
+The aim is to analyze restaurant ratings, pricing trends, cuisines, and locations to gain meaningful insights into customer preferences and restaurant performance.
+
+This project is created for academic learning and portfolio demonstration purposes.
 
 ---
 
 ## Objectives
-- Perform data cleaning and preprocessing on real-world data  
-- Analyze restaurant ratings and pricing patterns  
+- Clean and preprocess real-world restaurant data  
+- Analyze ratings and pricing patterns  
 - Identify popular cuisines and locations  
-- Study the relationship between ratings, votes, and cost  
-- Visualize insights for better understanding and interpretation  
+- Study the relationship between ratings and customer votes  
+- Visualize data to extract insights  
+
+---
+
+## Project Structure
+zomato-data-analysis/
+│
+├── zomato.py # Main Python script for analysis
+├── zomato_dataset.csv # Dataset used for analysis
+├── README.md # Project documentation
+├── .gitignore # Ignored system/cache files
+└── LICENSE # MIT License
 
 ---
 
 ## Dataset Information
 - **Dataset Name:** Zomato Restaurant Dataset  
-- **Format:** CSV  
-- **Description:** Contains information about restaurants such as ratings, location, cuisine types, pricing, and customer votes.
+- **File Format:** CSV  
+- **Description:** Contains information about restaurants including ratings, cuisines, location, cost, and customer votes.
 
 ### Key Columns
 - Restaurant Name  
@@ -38,21 +48,49 @@ The objective is to analyze restaurant trends, customer preferences, pricing, an
 ## Technologies Used
 - **Language:** Python 3  
 - **Libraries:**
-  - pandas – data manipulation and analysis  
-  - numpy – numerical computations  
-  - matplotlib – data visualization  
-  - seaborn – statistical data visualization  
+  - pandas  
+  - numpy  
+  - matplotlib  
+  - seaborn  
 
 ---
 
-## Installation & Usage
+## Installation
+
+### Install Required Libraries
 ```bash
-## Install Required Libraries
 pip install pandas numpy matplotlib seaborn
-
----
+```
 
 ## Run the Project
+```bash
 python zomato.py
+```
+## Analysis Performed
+- Data loading and inspection
+- Handling missing and duplicate values
+- Rating distribution analysis
+- Cost vs rating analysis
+- Location-wise restaurant analysis
+- Cuisine popularity analysis
 
+## Key Insights
+- Restaurants with moderate pricing often receive higher ratings
+- Popular cuisines vary by location
+- Restaurants with higher votes generally have better ratings
 
+## Future Enhancements
+- Build an interactive dashboard using Streamlit
+- Add more advanced visualizations
+- Perform predictive analysis on ratings
+- Include geographical maps
+
+## Learning Outcomes
+- Practical experience with real-world datasets
+- Strong understanding of EDA workflow
+- Improved data visualization skills
+- Better project documentation practices
+
+## License
+- This project is licensed under the MIT License.
+- The dataset is used strictly for educational purposes.
